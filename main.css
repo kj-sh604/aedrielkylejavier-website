@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
 :root {
   --genwidth: 850px;
   --navwidth: 175px;
@@ -12,7 +14,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Heebo', sans-serif;
   background: #202020;
   margin-bottom: 100px;
 }
@@ -151,7 +153,7 @@ li img, p img {
 }
 
 h1, h2, h3, h4 {
-  font-family: sans-serif;
+  font-family: 'Heebo', sans-serif;
   text-align: center;
   text-shadow: 1px 1px var(--emph);
   font-weight: normal;
@@ -195,7 +197,7 @@ dt {
 @media (min-width: 1200px) {
   nav {
     float: left;
-    width: 185px;
+    width: 200px;
     position: fixed;
     text-align: left;
     font-size: large;
