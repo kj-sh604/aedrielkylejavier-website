@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+body {
+  background: #151515;
+  color: #ccc;
+  max-width: 800px;
+  margin: auto;
+  padding: 0 16px;
+  margin-bottom: 500px;
+  font-family: sans-serif;
+}
+
+img.line-image {
+  max-height: 1.4em;
+  max-width: 1.4em;
+  vertical-align: middle;
+  display: inline;
+}
+
+a {
+  color: #69baa7;
+}
+
+a:visited {
+  color: #69baa7;
+}
+
+a.button {
+  font-family: 'Heebo', sans-serif;
+  font-size: calc(1vw + 1vh + .5vmin);
+  text-decoration-line: none;
+  text-underline-offset: 20px;
+  background: #2d2d2d;
+  border-radius: 10px;
+  padding: 19px 64px;
+  margin-bottom: 16px;
+  display: block;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  line-height: 84px;
+}
+
+a.button:hover {
+  background: #69baa7;
+  color: black;
+  box-shadow: 2px 2px #121212;
+}
+
+a.socials {
+  position: relative;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: calc(1.3vw + 1.3vh + .5vmin);
+  font-family: 'Heebo', sans-serif;
+  color: #69baa7;
+  text-align: center;
+}
+
+h2 {
+  font-size: calc(0.8vw + 0.8vh + .5vmin);
+  font-family: 'Heebo', sans-serif;
+  color: #69baa7;
+}
+
+footer {
+  text-align: center;
+}
+
+img.socials {
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-height: 5em;
+  max-width: 5em;
+  vertical-align: middle;
+}
+
+img.circular-thumbnail {
+  border-radius: 50%;
+  display: inline;
+  margin-top: 120px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-height: 16em;
+  max-width: 16em;
+  vertical-align: middle;
+}
+
+img.thumbnail {
+  width: 100%;
+  margin: auto;
+  display: inline;
+  margin-top: 120px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-height: 16em;
+  max-width: 16em;
+  vertical-align: middle;
+}
+
+img.link-thumbnail {
+  border-radius: 0;
+  position: absolute;
+  top: calc((100% - 92px) / 2);
+  left: 20px;
+  bottom: calc((100% - 92px) / 2);
+  width: auto;
+  min-width: 92px;
+  max-width: 92px;
+  height: auto;
+  min-height: 92px;
+  max-height: 92px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+img {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+code {
+  overflow-wrap: break-word;
+  color: lime;
+}
+
+div.centered {
+  text-align: center;
+}
+
+p.mono {
+  font-family: 'JetBrains Mono', monospace;
+  text-align: left;
+  padding-bottom: 100px;
+  font-size: calc(0.7vw + 0.7vh + .5vmin);
+}
+
+p.centered {
+  text-align: center;
+}
+
+h2.centered {
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Heebo', sans-serif;
+  font-size: calc(1vw + 1vh + .5vmin);
+  color: #69baa7;
+}
+
+h3.centered {
+  text-align: center;
+}
+
+h4.centered {
+  text-align: center;
+}
+
+input.center-block {
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+pre {
+  white-space: pre-wrap;
+  /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  /* Internet Explorer 5.5+ */
+}
+
+img[alt="BTC logo"],
+img[alt="XMR Logo"] {
+  max-width: 1em;
+  max-height: 1em;
+  display: inline;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background: white;
+    color: black;
+  }
+
+  a {
+    color: black;
+  }
+
+  a:visited {
+    color: black;
+  }
+
+  h2 {
+    color: inherit;
+  }
+
+  h3 {
+    color: black;
+  }
+
+  code {
+    color: forestgreen;
+  }
+}
+
+@media print {
+  a[href] {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+@media (min-width: 55em) {
+  #artlist {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 100em) {
+  #artlist {
+    column-count: 3;
+  }
+}
