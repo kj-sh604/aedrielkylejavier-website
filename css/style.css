@@ -5,6 +5,7 @@ body {
   background: #151515;
   color: #ccc;
   max-width: 800px;
+  min-width: 250px;
   margin: auto;
   padding: 0 16px;
   margin-bottom: 500px;
@@ -236,4 +237,148 @@ img[alt="XMR Logo"] {
   #artlist {
     column-count: 3;
   }
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: calc(1vw + 1vh + .5vmin);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-size: 28px;
+  }
+
+  p.mono {
+    font-family: 'JetBrains Mono', monospace;
+    text-align: left;
+    padding-bottom: 100px;
+    font-size: 20px;
+  }
+
+  a.button {
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    text-decoration-line: none;
+    text-underline-offset: 20px;
+    padding: 12px 32px;
+    background: #2d2d2d;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    display: block;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    line-height: 84px;
+  }
+
+  img.socials {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-height: 2em;
+    max-width: 2em;
+    vertical-align: middle;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: calc(1vw + 1vh + .5vmin);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-size: 20px;
+  }
+
+  p.mono {
+    font-family: 'JetBrains Mono', monospace;
+    text-align: left;
+    padding-bottom: 100px;
+    font-size: 16px;
+  }
+
+  a.button {
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+    text-decoration-line: none;
+    text-underline-offset: 20px;
+    padding: 0px 24px;
+    background: #2d2d2d;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    display: block;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    line-height: 84px;
+  }
+
+  img.socials {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-height: 1.2em;
+    max-width: 1.2em;
+    vertical-align: middle;
+  }
+
+}
+
+@media screen and (max-width: 300px) {
+  body {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: calc(1vw + 1vh + .5vmin);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-size: 16px;
+  }
+
+  p.mono {
+    font-family: 'JetBrains Mono', monospace;
+    text-align: left;
+    padding-bottom: 100px;
+    font-size: 14px;
+  }
+
+  a.button {
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+    text-decoration-line: none;
+    text-underline-offset: 20px;
+    padding: 0px 12px;
+    background: #2d2d2d;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    display: block;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    line-height: 84px;
+  }
+
+  img.socials {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-height: 1.2em;
+    max-width: 1.2em;
+    vertical-align: middle;
+  }
+
 }
