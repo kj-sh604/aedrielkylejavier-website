@@ -196,33 +196,6 @@ img[alt="XMR Logo"] {
   display: inline;
 }
 
-@media (prefers-color-scheme: light) {
-  body {
-    background: white;
-    color: black;
-  }
-
-  a {
-    color: black;
-  }
-
-  a:visited {
-    color: black;
-  }
-
-  h2 {
-    color: inherit;
-  }
-
-  h3 {
-    color: black;
-  }
-
-  code {
-    color: forestgreen;
-  }
-}
-
 @media print {
   a[href] {
     text-decoration: none;
