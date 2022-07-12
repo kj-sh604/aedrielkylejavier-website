@@ -142,9 +142,14 @@ code {
   overflow-wrap: break-word;
 }
 
+ul.bloglist {
+  font-size: large;
+  line-height: 32px;
+}
+
 ul {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 li img, p img {
