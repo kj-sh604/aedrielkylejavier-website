@@ -67,7 +67,7 @@ nav, footer {
 footer {
   color: var(--altfg);
   margin-top: 1em;
-  font-size: small;
+  font-size: large;
   overflow-wrap: break-word;
 }
 
@@ -177,7 +177,8 @@ h4 {
 
 a {
   color: #69baa7;
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 a:hover {
