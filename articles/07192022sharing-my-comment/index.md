@@ -13,8 +13,8 @@ viewport: width=device-width, initial-scale=1
 
 \
 
-![](chris.jpeg)
-![](trg.jpeg)
+[![](chris.jpeg)](chris.jpeg)
+[![](trg.jpeg)](trg.jpeg)
 
 \
 

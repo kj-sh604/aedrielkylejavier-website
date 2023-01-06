@@ -12,15 +12,15 @@ I had trouble sleeping tonight, so I decided to redesign the blog part of my web
 
 ### here's that old crusty blog…
 
-![Articles Page](2.png)
+[![Articles Page](2.png)](2.png)
 Articles Page
 \
 \
-![Example Article](3.png)
+[![Example Article](3.png)](3.png)
 Example Article
 \
 \
-![after writing this short post, I was done with manually doing it](1.png)
+[![after writing this short post, I was done with manually doing it](1.png)](1.png)
 after writing this short blog post, I was done with manually doing it
 \
 \
@@ -38,11 +38,11 @@ and then I played around with pandoc and made [this Makefile](https://github.com
 
 Also! with the simpler design it makes it easier to manipulate pandoc css styling (for the few things you do need css for) 
 
-![Looks like crap, but! it works and it makes things easy for me](4.png)
+[![Looks like crap, but! it works and it makes things easy for me](4.png)](4.png)
 Looks like crap, but! it works and it makes things easy for me
 \
 \
-![Looks like crap, but! it works and it makes things easy for me — in light mode](5.png)
+[![Looks like crap, but! it works and it makes things easy for me — in light mode](5.png)](5.png)
 Looks like crap, but! it works and it makes things easy for me — in light mode
 
 so yeah! you're most definitely seeing the new one now and the old one is not coming back. This is more simple, plain, and actually suprisingly readable.

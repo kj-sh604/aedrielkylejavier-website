@@ -25,7 +25,7 @@ based on (how I perceive) his scoring works he would definitely score
 the BMW M5 high because it will be the better buy for anybody in the
 market for a car RIGHT NOW.
 
-![](071222about-the-controversial-doug-score0.webp)
+[![](071222about-the-controversial-doug-score0.webp)](071222about-the-controversial-doug-score0.webp)
 
 Nostalgia, praise, and excitement will not always yield a high dougscore
 because those aren\'t necessarily things that would be deciding factors

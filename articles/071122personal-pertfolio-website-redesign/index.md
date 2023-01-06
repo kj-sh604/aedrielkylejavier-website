@@ -30,15 +30,15 @@ modern mobile devices, while still keeping its old-school \"web 1.0\"
 simplicity when it came to how it was built. Needed improvements to
 navigability and viewer experience were also focused on 👍🏽.
 
-![](https://res.cloudinary.com/practicaldev/image/fetch/s--LF0WPFuS--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o0vruutvv9ah7mf64v7y.png)
+[![](https://res.cloudinary.com/practicaldev/image/fetch/s--LF0WPFuS--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o0vruutvv9ah7mf64v7y.png)](https://res.cloudinary.com/practicaldev/image/fetch/s--LF0WPFuS--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o0vruutvv9ah7mf64v7y.png)
 
 Before:
 
-![](https://res.cloudinary.com/practicaldev/image/fetch/s--4kpMQ9oC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/w022v9m0c3xo8zt13r5h.png)
+[![](https://res.cloudinary.com/practicaldev/image/fetch/s--4kpMQ9oC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/w022v9m0c3xo8zt13r5h.png)](https://res.cloudinary.com/practicaldev/image/fetch/s--4kpMQ9oC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/w022v9m0c3xo8zt13r5h.png)
 
 After:
 
-![](https://res.cloudinary.com/practicaldev/image/fetch/s--eIlzwOqq--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5k1ecbzjpan8gv6vrc9x.png)
+[![](https://res.cloudinary.com/practicaldev/image/fetch/s--eIlzwOqq--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5k1ecbzjpan8gv6vrc9x.png)](https://res.cloudinary.com/practicaldev/image/fetch/s--eIlzwOqq--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5k1ecbzjpan8gv6vrc9x.png)
 
 \
 \
