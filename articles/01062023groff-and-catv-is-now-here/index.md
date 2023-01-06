@@ -22,6 +22,7 @@ I am now hosting copies of the GNU Troff Manual and cat-V. Nothing really super 
 \
 \
 \
+[\> next article](../01062023blogredesign)\
 [\< previous article](../07192022sharing-my-comment)
 \
 \

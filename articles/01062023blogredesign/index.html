@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="description" content="I had trouble sleeping tonight, so I decided to redesign the blog part of my website using as little css as possible AND create a workflow wherein I can create new articles by writing a single markdown file and just converting to HTML. Yes, of course, I am fully aware of all the static site generators out there, but for some reason (absolute stupidity and laziness on my part), when I started this blog, I decided to write articles manually using a HTML template that I gobbled up together. For a while it was okay, but now that I want to just dump more things on here — it’s proving to be incredibly ineffecient and very much prone to a lot of broken links and unmaintainability" />
+  <title>Redesigned my Blog Page with the Goal of Using the Least Amount of CSS, Possible</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="style.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Redesigned my Blog Page with the Goal of Using the
+Least Amount of CSS, Possible</h1>
+</header>
+<meta name="color-scheme" content="light dark">
+<p>I had trouble sleeping tonight, so I decided to redesign the blog
+part of my website using as little css as possible <strong>AND</strong>
+create a workflow wherein I can create new articles by writing a single
+markdown file and just converting to HTML. Yes, of course, I am fully
+aware of all the static site generators out there, but for some reason
+(absolute stupidity and laziness on my part), when I started this blog,
+I decided to write articles manually using a HTML template that I
+gobbled up together. For a while it was okay, but now that I want to
+just dump more things on here — and it was proving to be incredibly
+ineffecient and very much prone to a lot of broken links and
+unmaintainability.</p>
+<h3 id="heres-that-old-crusty-blog">here’s that old crusty blog…</h3>
+<p><img src="2.png" alt="Articles Page" /> Articles Page<br />
+<br />
+<img src="3.png" alt="Example Article" /> Example Article<br />
+<br />
+<img src="1.png"
+alt="after writing this short post, I was done with manually doing it" />
+after writing this short blog post, I was done with manually doing
+it<br />
+<br />
+<br />
+I mean… the old crusty page looked okay, as you can see I don’t really
+care about how this site looks, I just want it to work and be as minimal
+as possible and a place where people can read things that I am enthused
+to learn, opinions, and ya’ know… stuff.<br />
+<br />
+I came across this for the dark mode device recognition:<br />
+</p>
+<p><code>&lt;meta name="color-scheme" content="light dark"&gt;</code></p>
+<p>Which I think it’s pretty cool that it doesn’t even need to use <span
+class="citation" data-cites="media">@media</span> css arguments.</p>
+<p>and then I played around with pandoc and made <a
+href="https://github.com/kj-sh604/makefile-blog-article">this
+Makefile</a> to compile markdown to a usable HTML output — which
+streamlines the process.</p>
+<p>Also! with the simpler design it makes it easier to manipulate pandoc
+css styling (for the few things you do need css for)</p>
+<p><img src="4.png"
+alt="Looks like crap, but! it works and it makes things easy for me" />
+Looks like crap, but! it works and it makes things easy for me<br />
+<br />
+<img src="5.png"
+alt="Looks like crap, but! it works and it makes things easy for me — in light mode" />
+Looks like crap, but! it works and it makes things easy for me — in
+light mode</p>
+<p>so yeah! you’re most definitely seeing the new one now and the old
+one is not coming back. This is more simple, plain, and actually
+suprisingly readable.</p>
+<p>yeah… rss feed coming soon. I’m definitely going to rewrite this,
+because I’m so sleepy I’m writing this with one eye open.<br />
+<br />
+<br />
+<a href="../01062023groff-and-catv-is-now-here">&lt;
+previous article</a><br />
+<br />
+<a href="../../articles/">&lt;&lt; all articles</a><br />
+<a href="../../">^ home</a></p>
+</body>
+</html>

@@ -12,11 +12,12 @@ viewport: width=device-width, initial-scale=1
 
 ## Most Recent...
 
-#### [Added Personal Copies of the GNU Troff Manual and cat-V to My Website](01062023groff-and-catv-is-now-here) 
+#### [Redesigned my Blog Page with the Goal of Using the Least Amount of CSS, Possible](01062023blogredesign) 
 \
 
 ## Tech...
 
+-   01/06/2023 -- [Redesigned my Blog Page with the Goal of Using the Least Amount of CSS, Possible](01062023blogredesign) 
 -   01/06/2023 -- [Added Personal Copies of the GNU Troff Manual and cat-V to My Website](01062023groff-and-catv-is-now-here)
 -   07/19/2022 -- [Sharing my Comment on TRG\'s Response Video to
     ChrisTitusTech](07192022sharing-my-comment/)
