@@ -40,7 +40,7 @@ rect.ContributionCalendar-day[data-level='4'] {
 
 .calendar {
     font-family: Helvetica, arial;
-    border: 1px solid #303030;
+    border: transparent;
     border-radius: 3px;
     min-height: 243px;
     text-align: center;
