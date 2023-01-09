@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Blog Posts
 description: Hello! 👋🏽 This is my Blog Site, I talk about whatever I
   like to talk about. It\'s very random and ranges from weird nerdy
   hobbies to cars & sports 😅. I hope it still remains interesting or at
