@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Replaced the GNU coreutils with the rust-uutils on All My Linux Machines</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="style.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Replaced the GNU <code>coreutils</code> with the
+<code>rust-uutils</code> on All My Linux Machines</h1>
+</header>
+<meta name="color-scheme" content="light dark">
+<p>I’ll be honest… this was a very impulsive decision from around 6
+months ago when I found the <code>coreutils-hybrid</code> package in the
+AUR. It’s nothing more than a hybrid package which uses stable
+rust-uutils programs mixed with GNU counterparts if the uutils
+counterpart are unfinished/buggy. I don’t really know what draws my
+interest to the rust-uuils, maybe it was the initial assumption that the
+utilitles were <strong><em>strictly POSIX-compliant</em></strong>, which
+I later discovered that they were not.</p>
+<p>Why am I interested in <strong><em>strict
+POSIX-Compliance</em></strong>? well… I don’t know either, maybe it’s
+all the people that try my scripts on macOS and it straight up doesn’t
+work because I wasn’t aware of what “GNU-isms” were at the time 🤦🏽‍♂️ 😂 .
+As you can see, there is not substance to the decision, but I did it
+anyway.</p>
+<p><a href="rust-uutils.mp4"><img src="rust-uutils.webp"
+alt="rust-uutils video" /></a></p>
+<p>As seen in the video, it doesn’t use all of the rust-uutils (cp was
+still its GNU version) and I’ll be honest… as I’ve used my system for
+the normal gen-Z stuff, I totally forgot I made this change. I guess
+that goes to show how usable and seamless the <code>rust-uutils</code>
+are.</p>
+<p>I, then decided to take this a step further by adding the following
+aliases to my <code>fish</code> config:</p>
+<pre><code>
+    # Command Substitutions 
+        alias echo=&quot;uu-echo&quot;
+        alias ls=&quot;uu-ls --group-directories-first -h -p --color -F&quot;
+        alias pwd=&quot;uu-pwd&quot;
+        alias groups=uu-groups
+        alias kill=uu-kill
+        alias ln=uu-ln
+
+        ## Experimental/Risky rust-uutits Substitutions for Testing
+        alias basenc=uu-basenc
+        alias date=uu-date
+        alias false=uu-false
+        alias hostname=uu-hostname
+        alias join=uu-join
+        alias pathchk=uu-pathchk
+        alias realpath=uu-realpath
+        alias tail=uu-tail
+        alias touch=uu-touch
+        alias true=uu-true
+        alias uptime=uu-uptime
+
+        # Plan9 Utils Command Substitutions
+        alias sort=&quot;9 sort&quot;
+        alias grep=&quot;9 grep&quot;
+</code></pre>
+<p>So now, I’m using even more of the rust-uutils (at least on an
+interactive shell) and so far it has been very seamless that on most
+days I forget I’m even running this, until I need to search for an
+argument with <code>--help</code> or the <code>man</code> page.</p>
+<p>I’ll continue to report on this, but as of right now this has been
+very much viable without any distinguishable differences with the GNU
+coreutils. Granted, I have not tested performance nor have I written
+very complex <code>sh</code> scripts in the past few months, but for a
+daily Linux computer intended to be used like a “<em>normie</em>” pretty
+f**king good and more than usable 👌🏽.</p>
+<p>My <strong><code>GNU/Linux</code></strong> system is slowly becoming
+<strong><code>uutils/Linux</code></strong> 😂 now we just need a rust
+re-write of glibc, gdb, and binutils 😅</p>
+<p><br />
+<em>Disclaimer: I am not anti-GNU, just being playful at the end…
+toughen up snowflake</em> ❄</p>
+<p><br />
+<br />
+<a href="../01062023blogredesign">&lt; previous article</a><br />
+<br />
+<a href="../../articles/">&lt;&lt; all articles</a><br />
+<a href="../../">^ home</a></p>
+</body>
+</html>

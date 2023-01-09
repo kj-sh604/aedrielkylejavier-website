@@ -12,11 +12,12 @@ viewport: width=device-width, initial-scale=1
 
 ## Most Recent...
 
-#### [Redesigned my Blog Page with the Goal of Using the Least Amount of CSS, Possible](01062023blogredesign) 
+#### [Replaced the GNU `coreutils` with the `rust-uutils` on All My Linux Machines](01082023rust-uutils-for-some-reason)
 \
 
 ## Tech...
 
+-   01/08/2023 -- [Replaced the GNU `coreutils` with the `rust-uutils` on All My Linux Machines](01082023rust-uutils-for-some-reason)
 -   01/06/2023 -- [Redesigned my Blog Page with the Goal of Using the Least Amount of CSS, Possible](01062023blogredesign) 
 -   01/06/2023 -- [Added Personal Copies of the GNU Troff Manual and cat-V to My Website](01062023groff-and-catv-is-now-here)
 -   07/19/2022 -- [Sharing my Comment on TRG\'s Response Video to

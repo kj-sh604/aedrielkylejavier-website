@@ -52,6 +52,7 @@ yeah… rss feed coming soon. I'm definitely going to rewrite this, because I'm 
 \
 \
 \
+[\> next article](../01082023rust-uutils-for-some-reason)\
 [\< previous article](../01062023groff-and-catv-is-now-here)
 \
 \
