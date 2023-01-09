@@ -1,6 +1,6 @@
 ---
 title: Replaced the GNU `coreutils` with the `rust-uutils` on All My Linux Machines
-description: <!-- Place Description Here --> 
+description: I’ll be honest… this was a very impulsive decision from around 6 months ago when I found the coreutils-hybrid package in the AUR. It’s nothing more than a hybrid package which uses stable rust-uutils programs mixed with GNU counterparts if the uutils counterpart are unfinished/buggy. I don’t really know what draws my interest to the rust-uuils, maybe it was the initial assumption that the utilitles were strictly POSIX-compliant, which I later discovered that they were not.
 lang: en
 viewport: width=device-width, initial-scale=1
 ---
