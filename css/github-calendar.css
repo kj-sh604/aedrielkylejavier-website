@@ -88,8 +88,8 @@ rect.ContributionCalendar-day[data-level='4'] {
 .contrib-column {
     padding: 15px 0;
     text-align: center;
-    border-left: 1px solid #303030;
-    border-top: 1px solid #303030;
+    border-left: 1px transparent #303030;
+    border-top: 1px transparent #303030;
     font-size: 11px;
 }
 
