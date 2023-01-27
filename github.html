@@ -105,6 +105,29 @@
 
 
   </div>
+
+
+  <script type="text/javascript">
+    // Clear GitHub Plug Messages
+    let timeoutId;
+    
+    function waitForElement(selector, callback) {
+      if (document.querySelector(selector)) {
+        clearTimeout(timeoutId);
+        callback();
+      } else {
+        timeoutId = setTimeout(() => waitForElement(selector, callback), 50);
+      }
+    }
+    
+    waitForElement("div.width-full:nth-child(1)", () => {
+        let element = document.querySelector("div.width-full:nth-child(1)");
+        if (element != null) {
+            element.parentNode.removeChild(element);
+        }
+    });
+  </script>
+
 </body>
 
 </html>
