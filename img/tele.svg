@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   height="800px"
+   width="800px"
+   version="1.1"
+   id="Layer_1"
+   viewBox="0 0 512 512"
+   xml:space="preserve"
+   sodipodi:docname="tele.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs19" /><sodipodi:namedview
+   id="namedview17"
+   pagecolor="#505050"
+   bordercolor="#eeeeee"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#505050"
+   showgrid="false"
+   inkscape:zoom="1.1275"
+   inkscape:cx="401.33038"
+   inkscape:cy="401.33038"
+   inkscape:current-layer="Layer_1" />
+<circle
+   style="fill:#11427e;fill-opacity:1;opacity:0.3"
+   cx="256"
+   cy="256"
+   r="256"
+   id="circle2" />
+<path
+   style="fill:#11427e;fill-opacity:1;opacity:0.2"
+   d="M34.133,256c0-135.648,105.508-246.636,238.933-255.421C267.424,0.208,261.737,0,256,0  C114.615,0,0,114.615,0,256s114.615,256,256,256c5.737,0,11.424-0.208,17.067-0.579C139.642,502.636,34.133,391.648,34.133,256z"
+   id="path4" />
+<path
+   style="fill:#E5E5E5;"
+   d="M380.263,109.054c-2.486-1.69-5.676-1.946-8.399-0.679L96.777,236.433  c-4.833,2.251-7.887,7.172-7.766,12.501c0.117,5.226,3.28,9.92,8.065,12.015l253.613,110.457c8.468,3.849,18.439-2.21,18.983-11.453  l14.314-243.341C384.161,113.614,382.748,110.742,380.263,109.054z"
+   id="path6" />
+<polygon
+   style="fill:#abacae"
+   points="171.631,293.421 188.772,408 379.168,108.432 "
+   id="polygon8" />
+<path
+   style="fill:#7e8087"
+   d="M371.866,108.375L96.777,236.433c-4.737,2.205-7.826,7.121-7.769,12.345  c0.058,5.233,3.276,10.074,8.067,12.171l74.557,32.471l207.536-184.988C376.882,107.33,374.203,107.287,371.866,108.375z"
+   id="path10" />
+<polygon
+   style="fill:#555761"
+   points="211.418,310.749 188.772,408 379.168,108.432 "
+   id="polygon12" />
+<path
+   style="fill:#7e8087"
+   d="M380.263,109.054c-0.351-0.239-0.72-0.442-1.095-0.622l-167.75,202.317l139.27,60.657  c8.468,3.849,18.439-2.21,18.983-11.453l14.314-243.341C384.161,113.614,382.748,110.742,380.263,109.054z"
+   id="path14" />
+</svg>
