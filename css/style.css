@@ -165,6 +165,11 @@ h3.centered {
   text-align: center;
 }
 
+h3.mono {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 16px;
+}
+
 h4.centered {
   text-align: center;
 }
